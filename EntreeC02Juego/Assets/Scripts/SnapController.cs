@@ -15,6 +15,7 @@ public class SnapController : MonoBehaviour
 
     void Start()
     {
+        // Variable que contiene la lista correcta en que deben ir los ingredientes 
         correctOr = new List<string> { "Ingrediente7", "Ingrediente2","Ingrediente8","Ingrediente4","Ingrediente1","Ingrediente3","Ingrediente6","Ingrediente5"};
 
         foreach(DragDrop draggable in draggableObject)
@@ -29,8 +30,10 @@ public class SnapController : MonoBehaviour
         float currenDistance = Vector2.Distance(draggable.transform.localPosition, snapPoints.localPosition);
         if(currenDistance <= snapRange)
         {
+            // Verifica si el objeto es el correcto para colocar
             if(correctOrder < correctOr.Count && draggable.name == correctOr[correctOrder])
             {
+                // El ingrediente es colocado en el snap point
                 placedObject.Add(draggable); //Agrega el objeto 
                 draggable.transform.localPosition = snapPoints.localPosition; //colocalo en el snap point 
                 draggable.transform.SetSiblingIndex(placedObject.Count - 1);
@@ -39,12 +42,14 @@ public class SnapController : MonoBehaviour
             }
             else
             {
+                // Si no es el ingrediente correcto, regresa a su posicion
                 draggable.transform.localPosition = draggable.originalPosition;
                 Debug.Log($"{draggable.name} regreso a su posicion");
             }
         }
         else
         {
+            // Si el ingrediente no es puesto cerca del rango, se devuelve su posicion
             draggable.transform.localPosition = draggable.originalPosition;
             Debug.Log($"{draggable.name} regreso a su posicion");
         }
