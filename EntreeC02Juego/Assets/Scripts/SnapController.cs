@@ -5,35 +5,35 @@ using UnityEngine.Rendering;
 
 public class SnapController : MonoBehaviour
 {
-    public List<Transform> snapPoints; // Variable que se ajusta a los puntos donde deben estar los objetos
+    public Transform snapPoints; // Variable que se ajusta a los puntos donde deben estar los objetos
     public List<DragDrop> draggableObject; // Varibale lista de objetos arrastrables
-    public float snapRange = 0.5f; // Variable que especifica que tan cerca debe estar el objeto
+    public float snapRange = 0.5f; // Variable que especifica la distancia maxima para que el objeto encaje
 
+    private List<DragDrop> placedObject = new List<DragDrop>();
 
     void Start()
     {
+        
         foreach(DragDrop draggable in draggableObject){
             draggable.dragEndedCallback = OnDragEnd; 
         }
     }
 
     // Funcion que controla la aproximacion del objeto al destino 
-    private void OnDragEnd(DragDrop draggable){
-        float closesDistance = -1;
-        Transform closesSnapPoint = null;
-
-        foreach(Transform snapPoint in snapPoints){
-            float currentDistance = Vector2.Distance(draggable.transform.localPosition, snapPoint.localPosition);
-            if (closesSnapPoint == null || currentDistance < closesDistance ){
-                closesDistance = currentDistance;
-                closesSnapPoint = snapPoint;
+    private void OnDragEnd(DragDrop draggable)
+    {
+        float currenDistance = Vector2.Distance(draggable.transform.localPosition, snapPoints.localPosition);
+        if(currenDistance <= snapRange)
+        {
+            if(!placedObject.Contains(draggable))
+            {
+                placedObject.Add(draggable); //Agrega el objeto 
+                draggable.transform.localPosition = snapPoints.localPosition; //colocalo en el snap point 
+                draggable.transform.SetSiblingIndex(placedObject.Count - 1);
+                Debug.Log($"{draggable.name} colocado. Orden actual: {placedObject.Count}");
             }
+
         }
-
-        if(closesSnapPoint != null && closesDistance <= snapRange){
-            draggable.transform.localPosition = closesSnapPoint.localPosition;
-        }
-
-
     }
+        
 }
