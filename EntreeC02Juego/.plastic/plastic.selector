@@ -1,0 +1,4 @@
+repository "EntreeC02Juego@Wolvg09@cloud"
+  path "/"
+    br "/main"
+    co "/main"
