@@ -3,7 +3,7 @@
 Una vez terminado, se generará un reporte que desglosa la huella de carbono asociada a cada ingrediente utilizado, con esto se permitirá observar el impacto al medio ambiente de cada platillo y reflexionar acerca de la toma de decisiones pro ambientales en preparaciones futuras. Así que prepárate para cocinar y cuidar el medio ambiente siendo un aliado en el cambio climático formando parte de Entrée CO2.
 
 **Game objective**:
-* Completar las recetas de los restaurantes: en base a los ingredientes correctos, tendrás que seguir el orden correcto de preparación.
+* Completar las recetas de los restaurantes: tendrás que arrastrar los ingredientes de manera correcta.
 * Gestión del tiempo de preparación: deberás de preparar los platillos en el menor tiempo posible, para satisfacer a los clientes y mejorar tu huella de carbono.
 * Generar y analizar reporte de la huella de carbono: una vez completado, tendrás que revisar cada informe y analizar qué ingredientes son los que están teniendo un mayor impacto al medio ambiente  y ver qué tan prioritarios son para la receta.
 * Cumplir con la menor huella de carbono: con estos informes, desarrollarás la habilidad para reducir la huella de carbono optimizando ingredientes y tiempo de preparación.
