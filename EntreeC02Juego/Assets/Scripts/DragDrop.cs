@@ -10,11 +10,13 @@ public class DragDrop : MonoBehaviour
     private bool isDragged = false;
     private Vector3 mouseDragStart;
     private Vector3 spriteDragStart;
+    public Vector3 originalPosition;
 
     private void OnMouseDown() {
         isDragged = true;
         mouseDragStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         spriteDragStart = transform.localPosition;
+        originalPosition = transform.localPosition;
         
     }
 
