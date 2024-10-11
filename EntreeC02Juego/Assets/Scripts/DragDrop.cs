@@ -15,14 +15,14 @@ public class DragDrop : MonoBehaviour
     private void OnMouseDown() {
         isDragged = true;
         mouseDragStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        spriteDragStart = transform.localPosition;
-        originalPosition = transform.localPosition;
+        spriteDragStart = transform.position;
+        originalPosition = transform.position;
         
     }
 
     private void OnMouseDrag() {
         if(isDragged == true){
-            transform.localPosition = spriteDragStart + (Camera.main.ScreenToWorldPoint(Input.mousePosition) - mouseDragStart);
+            transform.position = spriteDragStart + (Camera.main.ScreenToWorldPoint(Input.mousePosition) - mouseDragStart);
 
         }
     }
