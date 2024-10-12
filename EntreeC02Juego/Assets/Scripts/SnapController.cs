@@ -1,7 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SearchService;
 using UnityEngine;
 using UnityEngine.Rendering;
+using UnityEngine.SceneManagement;
 
 public class SnapController : MonoBehaviour
 {
@@ -39,6 +41,11 @@ public class SnapController : MonoBehaviour
                 draggable.transform.SetSiblingIndex(placedObject.Count - 1);
                 correctOrder++;
                 Debug.Log($"{draggable.name} colocado. Orden actual: {placedObject.Count}");
+
+                if(correctOrder == correctOr.Count)
+                {
+                    winCondition();
+                }
             }
             else
             {
@@ -54,5 +61,9 @@ public class SnapController : MonoBehaviour
             Debug.Log($"{draggable.name} regreso a su posicion");
         }
     }
-        
+
+    public void winCondition()
+    {
+        SceneManager.LoadScene("CookingScene");
+    } 
 }
