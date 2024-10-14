@@ -336,7 +336,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 7cf60cab3d81bf743a16fc20c4b39b40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 536abba08e9839542a9f92e19fe18e7e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -441,7 +441,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 08d71bcb411b50e4195d7c68fa47ac3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ec054fd374a4e3d41ae1cb63401fc7f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -833,7 +833,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 4531cddb555fee544aebad16cb138d09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a18d78934eff5d740b219fe03c2466c9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1357,7 +1357,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 85139ea235b51a14e8f4eee56fd53171, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 83920480c40a0b04c819f4ebcde71955, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1513,7 +1513,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 1
-  m_Size: {x: 20.259386, y: 10.158434}
+  m_Size: {x: 20.569147, y: 10.158434}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -1528,7 +1528,7 @@ Transform:
   m_GameObject: {fileID: 673957007}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0065, y: 0.1244, z: 0}
+  m_LocalPosition: {x: 0.0402, y: 0.1244, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1643,7 +1643,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 00e95eb93e571144ebe90dfc076487e3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4dc3d3397c1542a4d97c6d8a81503d7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1832,7 +1832,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: d5236d6bb134b274da343e35465a726f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a47547295d693364d9d3267ca962ea9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2065,7 +2065,7 @@ Transform:
   m_GameObject: {fileID: 962821260}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -259, y: -0.52, z: -2955.6}
+  m_LocalPosition: {x: -261.15, y: -0.52, z: -2955.6}
   m_LocalScale: {x: 34.58792, y: 45.086086, z: 32.84}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2105,8 +2105,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 94.51001, y: -21.02}
-  m_SizeDelta: {x: 134.08, y: 97.82}
+  m_AnchoredPosition: {x: 365.87, y: -15.02}
+  m_SizeDelta: {x: 673.71, y: 63.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994525332
 MonoBehaviour:
@@ -2128,8 +2128,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mezcla\n\t1. Jitomate\n\t2. Pepino\n\t3. Pimiento \n\t    Morron\n\t4.
-    Cebolla\n\t5. Queso\nAgrega\n\t6. Aceite\n\t7. Sal\n\t8. Pimienta"
+  m_text: "Coloca \n\t1. Pescado\nUnta \n\t2. Mantequilla\nMezcla \n\t3. Ajo\n\t4.
+    Cebolla\n\t5. Pimiento\n\t6. Chile Serrano\n\t7. Naranja\nMarina con\n\t8. Limon\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
@@ -2192,7 +2192,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 13.022751, y: 16.779968, z: -15.335876, w: 12.424446}
+  m_margin: {x: 13.022751, y: 16.779968, z: 487.9949, w: 12.424446}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2300,7 +2300,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 502b0d62b53aa9a4cb4acb744b3e0530, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fb2f445b1deeeeb4090aee30bb119a29, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2526,7 +2526,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: eb79ed55d01e4104baa217473d950640, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54394fb6f5ae52948a2537c7a3adb46e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2719,9 +2719,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 115, y: -70}
-  m_SizeDelta: {x: 183.47, y: 74.59}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 120, y: -107}
+  m_SizeDelta: {x: 198.18, y: 74.59}
+  m_Pivot: {x: 0.5, y: -0.1}
 --- !u!114 &1466035371
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2742,7 +2742,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ensalada Griega
+  m_text: Pescado al Vapor
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 73b4d403d6588a94bb724197276905b0, type: 2}
   m_sharedMaterial: {fileID: -1396731207476432729, guid: 73b4d403d6588a94bb724197276905b0, type: 2}
@@ -2805,7 +2805,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -0.66502386, y: 0, z: 7.0700917, w: 29.790062}
+  m_margin: {x: -0.66502386, y: 0, z: 8.051163, w: 29.790062}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2913,7 +2913,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: acf905eb960746b408d1b2d26853b53c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 588bda5dda6f25b489ebf6e7152ac222, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3246,7 +3246,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: c2c5ce44abb812d46a17b5616834a9f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: eb79ed55d01e4104baa217473d950640, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

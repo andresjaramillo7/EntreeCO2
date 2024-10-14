@@ -18,7 +18,7 @@ public class SnapController : MonoBehaviour
     void Start()
     {
         // Variable que contiene la lista correcta en que deben ir los ingredientes 
-        correctOr = new List<string> { "Ingrediente7", "Ingrediente2","Ingrediente8","Ingrediente4","Ingrediente1","Ingrediente3","Ingrediente6","Ingrediente5"};
+        correctOr = new List<string> {"Ingrediente7", "Ingrediente2","Ingrediente8","Ingrediente4","Ingrediente1","Ingrediente3","Ingrediente6","Ingrediente5"};
 
         foreach(DragDrop draggable in draggableObject)
         {

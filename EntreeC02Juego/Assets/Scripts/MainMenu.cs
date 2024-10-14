@@ -10,5 +10,4 @@ public class MainScene : MonoBehaviour
         SceneManager.LoadScene("SelectScene");
     }
 
-	
 }

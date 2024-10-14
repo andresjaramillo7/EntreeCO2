@@ -336,7 +336,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 7cf60cab3d81bf743a16fc20c4b39b40, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 588bda5dda6f25b489ebf6e7152ac222, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -441,7 +441,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 08d71bcb411b50e4195d7c68fa47ac3c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 54394fb6f5ae52948a2537c7a3adb46e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -660,7 +660,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: ac8dcda226c4f364592265ebdfa9e3c8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6da1d33fc817ae94cbe1d5f710af5f22, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -833,7 +833,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 4531cddb555fee544aebad16cb138d09, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 593645d038074084f86adf3713d61c78, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1357,7 +1357,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 85139ea235b51a14e8f4eee56fd53171, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 51e7021160895fb4194ad7522ba2e4e6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1832,7 +1832,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: d5236d6bb134b274da343e35465a726f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6339f15af05e7bd43ad8f70ad3e08d8d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2105,8 +2105,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 94.51001, y: -21.02}
-  m_SizeDelta: {x: 134.08, y: 97.82}
+  m_AnchoredPosition: {x: 107, y: -27}
+  m_SizeDelta: {x: 150.76, y: 54.65}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994525332
 MonoBehaviour:
@@ -2128,8 +2128,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Mezcla\n\t1. Jitomate\n\t2. Pepino\n\t3. Pimiento \n\t    Morron\n\t4.
-    Cebolla\n\t5. Queso\nAgrega\n\t6. Aceite\n\t7. Sal\n\t8. Pimienta"
+  m_text: "Licua \n\t1. Tomates\n\t2. Ajo \n\t3. Chile Serrano\nMoja con la salsa\n\t4.
+    Tortilla\nRellena con\n\t5. Pollo\nSirve con\n\t6. Queso\n\t7. Cebolla\n\t8.
+    Cilantro\n\t"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
@@ -2300,7 +2301,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 502b0d62b53aa9a4cb4acb744b3e0530, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f12353b76e868ef4e8d9736715e31779, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2526,7 +2527,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: eb79ed55d01e4104baa217473d950640, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a47547295d693364d9d3267ca962ea9f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -2719,7 +2720,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 115, y: -70}
+  m_AnchoredPosition: {x: 117.20999, y: -66}
   m_SizeDelta: {x: 183.47, y: 74.59}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1466035371
@@ -2742,7 +2743,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Ensalada Griega
+  m_text: Enchiladas
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 73b4d403d6588a94bb724197276905b0, type: 2}
   m_sharedMaterial: {fileID: -1396731207476432729, guid: 73b4d403d6588a94bb724197276905b0, type: 2}
@@ -2913,7 +2914,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: acf905eb960746b408d1b2d26853b53c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d2b5a745b839d904ba9b03748e41d1fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3246,7 +3247,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: c2c5ce44abb812d46a17b5616834a9f8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4dc3d3397c1542a4d97c6d8a81503d7b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3402,7 +3403,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 299f545acfa041c48886bc3ef9451e80, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d65097ff484c2334d9eb204048f32b63, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3569,7 +3570,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: 21300000, guid: 593645d038074084f86adf3713d61c78, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 32e7287bf50fb194fa6c07678af6a291, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
