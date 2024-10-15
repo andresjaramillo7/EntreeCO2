@@ -183,15 +183,15 @@ MonoBehaviour:
 
     Mexicana'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
-  m_sharedMaterial: {fileID: -2735270005076830144, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
+  m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -208,8 +208,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.5
-  m_fontSizeBase: 17.5
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -450,15 +450,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Enchiladas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
-  m_sharedMaterial: {fileID: -2735270005076830144, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
+  m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -475,8 +475,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.5
-  m_fontSizeBase: 17.5
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -829,7 +829,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 19.4, y: 10.1}
+  m_AnchoredPosition: {x: 19.400002, y: 10.099998}
   m_SizeDelta: {x: 62.03, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &266963620
@@ -866,8 +866,8 @@ MonoBehaviour:
   m_ChildAlignment: 4
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 88.6, y: 48.2}
-  m_Spacing: {x: 40.4, y: 63.98}
+  m_CellSize: {x: 89.1, y: 49.4}
+  m_Spacing: {x: 37.5, y: 65.7}
   m_Constraint: 0
   m_ConstraintCount: 2
 --- !u!1 &518076604
@@ -1046,17 +1046,17 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Pescado
 
-    Empapelado'
+    al Vapor'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
-  m_sharedMaterial: {fileID: -2735270005076830144, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
+  m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1073,8 +1073,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.5
-  m_fontSizeBase: 17.5
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1614,8 +1614,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -144.13, y: 94.85}
-  m_SizeDelta: {x: 238.93, y: 108.19}
+  m_AnchoredPosition: {x: -138.46, y: 84.83}
+  m_SizeDelta: {x: 250.26, y: 102.52}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1952399362
 MonoBehaviour:
@@ -1639,23 +1639,22 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Bienvenido a EntreeCo2
 
-    1. Da click un platillo.
+    1. Selecciona un platillo.
 
     2. Arrastra
-    los ingredientes correctos al plato, siguiendo la receta al plato.
+    los ingredientes correctos al plato
 
-    3. Cocina
-    el platillo. '
+    3. Cocina y disfruta'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
-  m_sharedMaterial: {fileID: -2735270005076830144, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
+  m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1672,8 +1671,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 25
-  m_fontSizeBase: 25
+  m_fontSize: 40
+  m_fontSizeBase: 40
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1849,15 +1848,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Ensalada \nGriega"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
-  m_sharedMaterial: {fileID: -2735270005076830144, guid: 622d60b7b9bd135468de5c7bd7599e57, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
+  m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1874,8 +1873,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 17.5
-  m_fontSizeBase: 17.5
+  m_fontSize: 21
+  m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
