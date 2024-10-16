@@ -2194,8 +2194,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 365.87, y: -16}
-  m_SizeDelta: {x: 673.71, y: 63.48}
+  m_AnchoredPosition: {x: 348, y: -16}
+  m_SizeDelta: {x: 647.97, y: 63.48}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &994525332
 MonoBehaviour:
@@ -2218,7 +2218,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Coloca \n\t1. Pescado\nUnta \n\t2. Mantequilla\nMezcla \n\t3. Ajo\n\t4.
-    Cebolla\n\t5. Pimiento\n\t6. Chile Serrano\n\t7. Naranja\nMarina con\n\t8. Limon\n"
+    Cebolla\n\t5. Pimiento Morron\n\t6. Chile Serrano\n\t7. Naranja\nMarina con\n\t8.
+    Limon\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
@@ -2570,7 +2571,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -344, y: 161}
+  m_AnchoredPosition: {x: -348, y: 162}
   m_SizeDelta: {x: 35, y: 35}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1219762685
@@ -2642,7 +2643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 1, b: 0.007843138, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2941,7 +2942,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 118, y: -110}
+  m_AnchoredPosition: {x: 114, y: -110}
   m_SizeDelta: {x: 198.18, y: 74.59}
   m_Pivot: {x: 0.5, y: -0.1}
 --- !u!114 &1466035371

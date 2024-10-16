@@ -1642,9 +1642,9 @@ MonoBehaviour:
     1. Selecciona un platillo.
 
     2. Arrastra
-    los ingredientes correctos al plato
+    los ingredientes correctos al plato.
 
-    3. Cocina y disfruta'
+    3. Cocina y disfruta.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
   m_sharedMaterial: {fileID: 363414087884803186, guid: 6b6d3f2a82e49b644ad880ef5d99a765, type: 2}
